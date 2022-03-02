@@ -1,5 +1,5 @@
 ﻿using ECom.Application.Interfaces.CacheRepositories;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using AutoMapper;
 using MediatR;
 using System.Collections.Generic;

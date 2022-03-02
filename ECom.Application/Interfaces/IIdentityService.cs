@@ -1,5 +1,5 @@
 ﻿using ECom.Application.DTOs.Identity;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using System.Threading.Tasks;
 
 namespace ECom.Application.Interfaces

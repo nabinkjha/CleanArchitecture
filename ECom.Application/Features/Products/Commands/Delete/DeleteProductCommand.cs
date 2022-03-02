@@ -1,5 +1,5 @@
 ﻿using ECom.Application.Interfaces.Repositories;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;

@@ -29,6 +29,7 @@ namespace ECom.Infrastructure.Identity.Seeds
             await roleManager.AddPermissionClaim(adminRole, "Users");
             await roleManager.AddPermissionClaim(adminRole, "Products");
             await roleManager.AddPermissionClaim(adminRole, "Brands");
+            await roleManager.AddPermissionClaim(adminRole, "PaymentDetails");
         }
 
         public static async Task SeedAsync(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
@@ -38,8 +39,8 @@ namespace ECom.Infrastructure.Identity.Seeds
             {
                 UserName = "superadmin",
                 Email = "superadmin@gmail.com",
-                FirstName = "Mukesh",
-                LastName = "Murugan",
+                FirstName = "Super",
+                LastName = "Admin",
                 EmailConfirmed = true,
                 PhoneNumberConfirmed = true,
                 IsActive = true

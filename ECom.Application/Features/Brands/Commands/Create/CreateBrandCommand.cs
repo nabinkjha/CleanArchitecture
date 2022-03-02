@@ -1,6 +1,6 @@
 ﻿using ECom.Application.Interfaces.Repositories;
 using ECom.Domain.Entities.Catalog;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using AutoMapper;
 using MediatR;
 using System.Threading;

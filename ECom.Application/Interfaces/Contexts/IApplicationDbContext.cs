@@ -1,4 +1,5 @@
-﻿using ECom.Domain.Entities.Catalog;
+﻿using ECom.Domain.Entities;
+using ECom.Domain.Entities.Catalog;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Data;
@@ -17,5 +18,6 @@ namespace ECom.Application.Interfaces.Contexts
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 
         DbSet<Product> Products { get; set; }
+        DbSet<PaymentDetail> PaymentDetails { get; set; }
     }
 }

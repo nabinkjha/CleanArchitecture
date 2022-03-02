@@ -25,7 +25,9 @@ namespace ECom.Infrastructure.Extensions
 
             services.AddTransient(typeof(IRepositoryAsync<>), typeof(RepositoryAsync<>));
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IPaymentDetailRepository, PaymentDetailRepository>();
             services.AddTransient<IProductCacheRepository, ProductCacheRepository>();
+            services.AddTransient<IPaymentDetailCacheRepository, PaymentDetailCacheRepository>();
             services.AddTransient<IBrandRepository, BrandRepository>();
             services.AddTransient<IBrandCacheRepository, BrandCacheRepository>();
             services.AddTransient<ILogRepository, LogRepository>();

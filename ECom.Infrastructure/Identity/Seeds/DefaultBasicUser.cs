@@ -15,8 +15,8 @@ namespace ECom.Infrastructure.Identity.Seeds
             {
                 UserName = "basicuser",
                 Email = "basicuser@gmail.com",
-                FirstName = "John",
-                LastName = "Doe",
+                FirstName = "Test",
+                LastName = "User",
                 EmailConfirmed = true,
                 PhoneNumberConfirmed = true,
                 IsActive = true

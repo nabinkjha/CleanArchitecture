@@ -2,6 +2,7 @@
 using ECom.Application.Interfaces.Contexts;
 using ECom.Application.Interfaces.Shared;
 using ECom.Domain.Entities.Catalog;
+using ECom.Domain.Entities;
 using AspNetCoreHero.EntityFrameworkCore.AuditTrail;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
@@ -23,7 +24,7 @@ namespace ECom.Infrastructure.DbContexts
         }
 
         public DbSet<Product> Products { get; set; }
-
+        public DbSet<PaymentDetail> PaymentDetails { get; set; }
         public IDbConnection Connection => Database.GetDbConnection();
 
         public bool HasChanges => ChangeTracker.HasChanges();

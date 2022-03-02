@@ -1,6 +1,6 @@
 ﻿using ECom.Application.DTOs;
 using ECom.Application.Interfaces.Repositories;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using AutoMapper;
 using MediatR;
 using System.Collections.Generic;

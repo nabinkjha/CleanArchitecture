@@ -6,7 +6,7 @@ using ECom.Infrastructure.DbContexts;
 using ECom.Infrastructure.Identity.Models;
 using ECom.Infrastructure.Identity.Services;
 using ECom.Infrastructure.Shared.Services;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;

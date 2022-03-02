@@ -1,5 +1,5 @@
 ﻿using ECom.Application.Exceptions;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;

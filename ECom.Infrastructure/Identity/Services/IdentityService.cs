@@ -6,7 +6,7 @@ using ECom.Application.Exceptions;
 using ECom.Application.Interfaces;
 using ECom.Application.Interfaces.Shared;
 using ECom.Infrastructure.Identity.Models;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using ThrowR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;

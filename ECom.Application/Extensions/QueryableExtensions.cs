@@ -1,4 +1,4 @@
-﻿using AspNetCoreHero.Results;
+﻿using Paginated.Results;
 using ThrowR;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;

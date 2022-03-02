@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AspNetCoreHero.Results
+namespace Paginated.Results
 {
     public class PaginatedResult<T> : Result
     {

@@ -1,7 +1,7 @@
 ﻿using ECom.Application.Extensions;
 using ECom.Application.Interfaces.Repositories;
 using ECom.Domain.Entities.Catalog;
-using AspNetCoreHero.Results;
+using Paginated.Results;
 using MediatR;
 using System;
 using System.Linq;

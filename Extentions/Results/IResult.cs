@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreHero.Results
+﻿namespace Paginated.Results
 {
     public interface IResult
     {

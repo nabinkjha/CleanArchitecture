@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace AspNetCoreHero.Results
+namespace Paginated.Results
 {
     public class Result : IResult
     {
