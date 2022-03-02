@@ -4,9 +4,6 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="AspNetCoreHero.EntityFrameworkCore.AuditTrail" Version="1.0.0" />
-    <PackageReference Include="AspNetCoreHero.Extensions.Caching" Version="1.1.0" />
-    <PackageReference Include="AspNetCoreHero.ThrowR" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.1" />
@@ -27,5 +24,9 @@
   <ItemGroup>
     <ProjectReference Include="..\ECom.Application\ECom.Application.csproj" />
     <ProjectReference Include="..\ECom.Domain\ECom.Domain.csproj" />
+    <ProjectReference Include="..\Extentions\AuditTrail\AuditTrail.csproj" />
+    <ProjectReference Include="..\Extentions\Caching\Caching.csproj" />
+    <ProjectReference Include="..\Extentions\ThrowR\ThrowR.csproj" />
+    <ProjectReference Include="..\Extentions\ToastNotification\ToastNotification.Web\ToastNotification.csproj" />
   </ItemGroup>
 </Project>

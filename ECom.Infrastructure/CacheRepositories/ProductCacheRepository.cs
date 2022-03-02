@@ -2,8 +2,8 @@
 using ECom.Application.Interfaces.Repositories;
 using ECom.Domain.Entities.Catalog;
 using ECom.Infrastructure.CacheKeys;
-using AspNetCoreHero.Extensions.Caching;
-using AspNetCoreHero.ThrowR;
+using Extensions.Caching;
+using ThrowR;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Collections.Generic;
 using System.Threading.Tasks;

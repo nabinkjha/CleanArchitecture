@@ -1,5 +1,5 @@
 using ECom.Infrastructure.Identity.Models;
-using AspNetCoreHero.Extensions.Logging;
+using Extensions.Logging;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;

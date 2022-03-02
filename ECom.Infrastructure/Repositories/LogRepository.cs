@@ -1,7 +1,7 @@
 ﻿using ECom.Application.DTOs;
 using ECom.Application.Interfaces.Repositories;
 using ECom.Application.Interfaces.Shared;
-using AspNetCoreHero.EntityFrameworkCore.AuditTrail.Models;
+using AuditTrail.Models;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
