@@ -13,24 +13,28 @@
     <Compile Remove="Areas\Settings\Data\**" />
     <Compile Remove="Areas\Settings\Models\**" />
     <Compile Remove="Areas\Settings\Views\**" />
+    <Compile Remove="Views\Shared\Components\Menu\**" />
     <Content Remove="Areas\Catalog\Data\**" />
     <Content Remove="Areas\Dashboard\Data\**" />
     <Content Remove="Areas\Dashboard\Models\**" />
     <Content Remove="Areas\Settings\Data\**" />
     <Content Remove="Areas\Settings\Models\**" />
     <Content Remove="Areas\Settings\Views\**" />
+    <Content Remove="Views\Shared\Components\Menu\**" />
     <EmbeddedResource Remove="Areas\Catalog\Data\**" />
     <EmbeddedResource Remove="Areas\Dashboard\Data\**" />
     <EmbeddedResource Remove="Areas\Dashboard\Models\**" />
     <EmbeddedResource Remove="Areas\Settings\Data\**" />
     <EmbeddedResource Remove="Areas\Settings\Models\**" />
     <EmbeddedResource Remove="Areas\Settings\Views\**" />
+    <EmbeddedResource Remove="Views\Shared\Components\Menu\**" />
     <None Remove="Areas\Catalog\Data\**" />
     <None Remove="Areas\Dashboard\Data\**" />
     <None Remove="Areas\Dashboard\Models\**" />
     <None Remove="Areas\Settings\Data\**" />
     <None Remove="Areas\Settings\Models\**" />
     <None Remove="Areas\Settings\Views\**" />
+    <None Remove="Views\Shared\Components\Menu\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,7 +55,6 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Views\Shared\Components\Menu\" />
   </ItemGroup>
 
   <ItemGroup>
