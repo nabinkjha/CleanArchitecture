@@ -1,0 +1,34 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Band New",
+      "price": 540,
+      "comment": "This is tasty apple.",
+      "date": "2022-03-01T00:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Banana",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 200,
+      "comment": "This is popular",
+      "date": "2022-03-02T00:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Band New",
+      "price": 250,
+      "comment": "This is king of fruit",
+      "date": "2022-03-03T00:00:00.000Z",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
