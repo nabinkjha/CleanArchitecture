@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validator, Validators } from '@angular/forms';
+import { UntypedFormGroup, UntypedFormBuilder, Validator, Validators } from '@angular/forms';
 import { ApiService } from '../services/api.service';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ToastrService } from 'ngx-toastr';
@@ -10,10 +10,10 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class DialogComponent implements OnInit {
   freshnessList = ['Band New', 'Second Hand', 'Refurbished'];
-  productForm!: FormGroup;
+  productForm!: UntypedFormGroup;
   actionBtn: string = 'Save';
   constructor(
-    private formBuilder: FormBuilder,
+    private formBuilder: UntypedFormBuilder,
     private api: ApiService,
     @Inject(MAT_DIALOG_DATA) public editData: any,
     private dailogRef: MatDialogRef<DialogComponent>,
